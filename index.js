@@ -151,16 +151,13 @@
 // };
 // console.log(add(5, 5));
 
-
 // interview question
 // function test() {
 //   return "HII";
 // }
 // console.log(test());
 
-
 // array
-
 
 // 1. array
 // 2. object
@@ -169,7 +166,7 @@
 // loops
 // statement
 
-let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"]
+let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"];
 // console.log(phones);
 
 // element access
@@ -178,8 +175,46 @@ let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"]
 // array ki length
 // console.log(phones.length);
 
-// add elements 
+// add elements
 // phones.push("Oppo") //end mai add
 // console.log(phones);
 // phones.unshift("Apple") // start mai add
-console.log(phones);
+// console.log(phones);
+
+// remove elem
+// phones.pop() //last wla remove hota hain
+// console.log(phones);
+// phones.shift()
+// console.log(phones);
+
+// loops in a araay
+// for (let i = 0; i < phones.length; i++) {
+//   console.log(phones[i]);
+// }
+
+// let obj = { name: "OP", age: 2 };
+// console.log(obj);
+
+// // access element in a object
+// console.log(obj.age)
+
+
+// let studentData = {
+//     name: "Vivek",
+//     age: 22,
+//     university : "AKTU"
+// }
+// // add key and value (data)
+// studentData.skill = "NEXTJS"
+// console.log(studentData);
+// // update 
+// // studentData.skill = "NESTJS"
+// // console.log(studentData);
+
+// // delete
+// delete studentData.skill
+// console.log(studentData);
+
+
+
+
