@@ -166,7 +166,7 @@
 // loops
 // statement
 
-let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"];
+// let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"];
 // console.log(phones);
 
 // element access
@@ -198,7 +198,6 @@ let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"];
 // // access element in a object
 // console.log(obj.age)
 
-
 // let studentData = {
 //     name: "Vivek",
 //     age: 22,
@@ -207,7 +206,7 @@ let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"];
 // // add key and value (data)
 // studentData.skill = "NEXTJS"
 // console.log(studentData);
-// // update 
+// // update
 // // studentData.skill = "NESTJS"
 // // console.log(studentData);
 
@@ -215,6 +214,116 @@ let phones = ["iPhone", "Samsung", "Motorola", "Vivo", "Redmi"];
 // delete studentData.skill
 // console.log(studentData);
 
+// 1. var
+// var a = 1.33
+// console.log(a);
+
+// let arr = ["Yash", "Shalu", "Vivek", "raghav"]
+// console.log(arr[1]);
+
+// {
+//   let num = 12;
+//   console.log(num);
+
+//   console.log(typeof num);
+// }
+
+// cons
+// var age = 12
+// console.log(age);
+// var age = 30
+// console.log(age);
+
+// let age ;
+// console.log(number); //
+// console.log(typeof number); //
+
+// let age  = null;
+// console.log(age); //
+// console.log(typeof(age)); //
+
+// let arr = [1,2,3,4]
+// console.log(arr);
+// console.log(typeof(arr));
+
+// let obj = {
+//   name: "Mango",
+//   age: 12
+// }
+// console.log(obj);
+// console.log(typeof(obj));
+// console.log(obj.age); //dot notation
+// console.log(obj["age"]);
+
+// let arr = [1, 2, 3];
+// [1,2,3,4]
+// arr.push(4); // add at the end
+// arr.unshift(0); // add at the start
+// arr.pop()
+// arr.shift()
+
+// console.log(arr);
 
 
 
+// let arr2 = [4,5,6]
+// // [1,2,3,4,5,6]
+
+// let total = arr.concat(arr2)
+
+// let sum = arr + arr2
+// console.log(sum);
+
+
+
+// let a = 10
+// let b = "5"
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a**b);
+
+
+// let firstLetter = "R"
+// let lastLetter = "A"
+// let Letter = firstLetter.concat(lastLetter)
+// console.log(Letter);
+// let op = firstLetter + lastLetter //return string
+// console.log(op);
+
+
+// let arr3 = [1,2]
+// let arr4 = ["RAMA"]
+// let arr5 = [true]
+// console.log(arr3.concat(arr4)); //return arr
+// console.log(arr3 + arr4 )  //return string
+
+// // function expession
+// function greet(){
+//   console.log("Hii everyone");
+// }
+// greet()
+
+// // arrow function
+// let mutiply = (a,b) =>{
+//   return a*b
+// }
+// console.log(mutiply(2,2))
+
+
+
+// let student = ["Ajay"]
+// const address = ["Monika"]
+// console.log(address.concat(student));
+// console.log(student.concat(address));
+
+// NaN not an number 
+// falsy 0 truthy 1
+let number = []
+let age = {}
+let results = number + age
+console.log(results);
+console.log(typeof(results));
+
+// console.log(number - age); //
+// console.log(number + age); //12Four
